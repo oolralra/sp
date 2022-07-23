@@ -10,7 +10,7 @@ phases:
  post_build:
    commands:
      ## aws s3 cp target/*.war s3://myhhbucket23 . We don't need this step.
-     - cp target/*.war s3://
+#     - cp target/*.war s3://
      - echo Build completed
 artifacts:
   files:
