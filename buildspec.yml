@@ -13,7 +13,7 @@ phases:
      - echo Build completed
 artifacts:
   files:
-    - controller-1.0.0-BUILD-SNAPSHOT.war
+    - build/libs/controller-1.0.0-BUILD-SNAPSHOT.war
 #     - index.html
     - scripts/server_start.sh
     - scripts/server_stop.sh
