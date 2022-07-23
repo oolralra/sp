@@ -6,14 +6,14 @@ phases:
      java: corretto11
   build:
     commands:
-      - echo Build Command Here
+      - mvn package
   post_build:
     commands:
       ## aws s3 cp target/*.war s3://myhhbucket23 . We don't need this step.
       - echo Build completed
 artifacts:
   files:
-    - test.jsp
+    - controller-1.0.0-BUILD-SNAPSHOT.war
 #     - index.html
     - scripts/server_start.sh
     - scripts/server_stop.sh
