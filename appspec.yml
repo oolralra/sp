@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-   - source: /index.jsp
-    destination: /home/ec2-user/tomcat/webapps/ROOT
+   - source: /controller-1.0.0-BUILD-SNAPSHOT.war
+    destination: /home/ec2-user/tomcat/webapps
 #    - source: /index.html
 #      destination: /var/www/html
 
