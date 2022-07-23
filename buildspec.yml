@@ -19,7 +19,7 @@ artifacts:
 #    - scripts/server_start.sh
 #    - scripts/server_stop.sh
     - appspec.yml
-    - "dist/**/*"
+    - dist/**/*
 #  base-directory: build
    
 #  discard-paths: yes
