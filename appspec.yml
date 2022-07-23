@@ -3,7 +3,7 @@ os: linux
 
 files:
    - source: /controller-1.0.0-BUILD-SNAPSHOT.war
-    destination: /home/ec2-user/tomcat/webapps
+     destination: /home/ec2-user/tomcat/webapps
 #    - source: /index.html
 #      destination: /var/www/html
 
