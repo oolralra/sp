@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-   - source: /controller-1.0.0-BUILD-SNAPSHOT.war
-     destination: /home/ec2-user/tomcat/webapps
+   - source: /target/controller-1.0.0-BUILD-SNAPSHOT.war
+     destination: /home/ec2-user/tomcat/webapps/app.war
 #    - source: /index.html
 #      destination: /var/www/html
 
