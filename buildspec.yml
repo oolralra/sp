@@ -16,12 +16,12 @@ phases:
 #     - aws s3 cp target/*.war s3://codepipeline-ap-northeast-2-177605922035/app.war
      - echo Build completed
 artifacts:
-  files:
+ files:
     - target/controller-1.0.0-BUILD-SNAPSHOT.war
     - scripts/server_start.sh
     - scripts/server_stop.sh
     - appspec.yml
-
+ discard-paths: yes
 #  base-directory: build
    
-discard-paths: yes
+
